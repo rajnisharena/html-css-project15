@@ -395,3 +395,181 @@ ul.btm-nav {
     height: 127vh;
    
 }
+.color-white{ color: #fff; font-size: 30px;}
+
+
+@media only screen and (max-width: 1200px) {
+    /* body {
+      background-color: green;
+    } */
+    .brand-img{height: 50%;}
+
+     nav .nav-items{
+        display: none;
+    }
+    nav .nav-menu-icon{
+        display: block;
+        margin: auto;
+    }
+}
+@media  screen and (min-width: 1240px) {
+
+    nav .nav-menu-icon{
+        display: none;
+       
+    }
+}
+@media  screen and (max-width: 700px) {
+    body {
+      /* background-color: lightblue; */
+      overflow-x: hidden;
+    }
+
+    nav .nav-items{
+        display: none;
+    }
+    nav .nav-menu-icon{
+        display: block;
+        margin: auto;
+    }
+
+    .col-1{
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    .guy-img{
+        height: 300px;
+      
+    }
+    .col-2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 24px 0px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        height: 11vh;
+        align-items: center;
+    }
+
+    .wrap {
+       
+        flex-direction: column;
+       
+    }
+
+    .col-2 h1{font-size: 35px;}
+    .col-2 p{
+       
+    font-size: small;
+   
+    text-align: center;
+    }
+    .box{
+        margin: 6px 11px;
+    }
+    .about-portfolio {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        margin-top: 0px;
+        justify-content: center;
+    }
+    .bg-position{
+        display: none;
+    }
+
+    .expe-box {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        margin: 7px 0px;
+        flex-direction: column;
+    }
+
+    .box-right .box-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .project {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 34px;
+}
+.project p{
+    text-align: center;
+}
+.project button{
+    margin-top: 1px;
+}
+.pro-box {
+     
+    margin: 13px 11px;
+   
+}
+
+.pro-img {
+     padding: 30px 0px;
+}
+.pro-img img{
+    width: 280px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    background-color: #1e1e1e;
+    padding: 14px;
+    align-items: center;
+    flex-direction: column;
+}
+.contact p {
+    color: #d8d8d8;
+    /* font-size: large; */
+    margin-top: 4px;
+    text-align: center;
+}
+.contact h1{
+    text-align: center;
+    font-size: 26px;
+}
+
+.contact button {
+   
+    padding: 13px 60px;
+  
+    font-size: 20px;
+  
+    margin-top: 3px;
+  
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    background-color: #1e1e1e;
+    align-items: center;
+    padding: 12px;
+}
+ul.btm-nav {
+    list-style-type: none;
+    margin: 4px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: SPACE-EVENLY;
+    PADDING: 27PX 7PX;
+}
+
+.footer .logo {
+    height: 24px;
+}
+}
